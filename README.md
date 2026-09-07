@@ -47,8 +47,4 @@ This version queries NVD and CISA live rather than maintaining its own database.
 - Subject to NVD's rate limits under heavy, rapid use
 - The "exploited only" filter applies within each page of 20 results, so a broad search can occasionally show fewer than 20 rows even when more matches exist further in
 
-## Roadmap
 
-- Add Postgres (Vercel Postgres or Supabase) and cache NVD/KEV results on a cron schedule instead of querying live each time
-- Add a news-mentions table and an ingestion script that pulls security RSS feeds, extracts CVE IDs, and links matched articles
-- Scheduled refresh via Vercel Cron instead of relying on in-memory caching
