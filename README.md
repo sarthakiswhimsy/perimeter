@@ -24,31 +24,7 @@ Data is pulled live on every search from two official, authoritative sources —
 - Tailwind CSS
 - No database — live API calls to NVD and CISA, cached in memory
 
-## Getting started
 
-```bash
-npm install
-npm run dev
-```
-
-Open http://localhost:3000.
-
-### Optional: add an NVD API key
-
-Without a key, NVD limits requests to 5 per 30 seconds — fine for casual use, but easy to hit if you're testing rapidly. A free key raises that to 50 requests per 30 seconds.
-
-1. Request a key at https://nvd.nist.gov/developers/request-an-api-key
-2. Copy `.env.example` to `.env.local`
-3. Set `NVD_API_KEY=your_key_here`
-
-## Deploying to Vercel
-
-1. Push this repo to GitHub
-2. Import it at https://vercel.com/new — Vercel auto-detects Next.js, no config needed
-3. (Optional) Add `NVD_API_KEY` under Project Settings → Environment Variables
-4. Deploy
-
-No database, no additional services, and no build configuration required.
 
 ## Project structure
 
