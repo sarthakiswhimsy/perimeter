@@ -2,7 +2,7 @@
 
 **A vulnerability lookup tool for blue teamers.** Search a CVE ID, product, or keyword and get the description, CVSS breakdown, whether it's being actively exploited in the wild, and links to the patch or vendor advisory — all pulled live from official sources.
 
-**Live demo:** https://perimeter-khaki.vercel.app
+**Live demo:** [https://perimeter-khaki.vercel.app](https://perimeter-two.vercel.app/)
 
 ## What it does
 
